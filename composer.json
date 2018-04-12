@@ -1,0 +1,33 @@
+{
+  "name": "totaldev/yii2-dual-listbox",
+  "description": "RBAC management module for Yii2",
+  "keywords": [
+    "yii2",
+    "dual list",
+    "listbox",
+    "list box"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vadim Kovalenko"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "totaldev/dual-listbox": "*",
+    "yiisoft/yii2": "^2.0@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "totaldev\\yii\\dualListBox\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
